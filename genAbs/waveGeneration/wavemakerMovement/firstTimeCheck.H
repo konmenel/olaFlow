@@ -50,7 +50,7 @@ if ( wavemakerType_ == "Piston" )
 }
 else if ( wavemakerType_ == "Flap" )
 {
-    if ( hingeHeight_ > zMax || hingeHeight_ < zMin )
+    if ( hingeHeight_ > zMax/* || hingeHeight_ < zMin */)
     {
         hingeHeight_ = zMin;
     }
